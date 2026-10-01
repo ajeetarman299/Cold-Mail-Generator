@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local ChromaDB store created by the app and notebooks
+vectorstore/
+chroma/
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
