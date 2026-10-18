@@ -1,0 +1,11 @@
+# Read by `streamlit run app/main.py` when started from the repository root.
+
+[browser]
+gatherUsageStats = false
+
+[client]
+# Hide the developer "Deploy" button; keep the main menu.
+toolbarMode = "minimal"
+
+[theme]
+primaryColor = "#2f6f4e"

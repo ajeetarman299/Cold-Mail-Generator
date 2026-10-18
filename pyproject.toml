@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# The app modules import each other by name (streamlit runs app/main.py directly).
+pythonpath = ["app"]

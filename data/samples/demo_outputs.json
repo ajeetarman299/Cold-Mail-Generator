@@ -1,0 +1,38 @@
+{
+  "note": "Saved sample outputs for demo mode. They answer the app's two prompts for sample_careers_page.html with the default sender settings, but they were not produced by a live model call.",
+  "sender": {
+    "name": "Alex Morgan",
+    "role": "Business Development Manager",
+    "company": "Acme Software",
+    "offer": "custom software development and dedicated engineers for web, mobile, cloud and machine learning projects",
+    "tone": "Friendly",
+    "length": "Short"
+  },
+  "extraction": {
+    "jobs": [
+      {
+        "role": "Machine Learning Engineer, Recommendations",
+        "experience": "3+ years building and shipping machine learning models in production",
+        "skills": ["Python", "TensorFlow", "SQL", "Docker", "Kubernetes", "A/B testing"],
+        "description": "Build and run the recommendation models behind gear suggestions in the Fernhill app and website, from training to serving, and test what helps customers find the right gear."
+      },
+      {
+        "role": "Android Developer",
+        "experience": "2+ years of professional Android development",
+        "skills": ["Kotlin", "Jetpack Compose", "Room", "Firebase", "REST APIs"],
+        "description": "Rebuild and extend the Fernhill Android app, which customers use to plan trips, track orders and check stock in stores."
+      },
+      {
+        "role": "Frontend Engineer, E-commerce",
+        "experience": "4+ years building production web applications",
+        "skills": ["React", "TypeScript", "GraphQL", "Node.js", "Accessibility"],
+        "description": "Own the product pages and checkout of the Fernhill website, with a focus on page speed and accessibility."
+      }
+    ]
+  },
+  "emails": {
+    "Machine Learning Engineer, Recommendations": "Subject: Support for your Machine Learning Engineer, Recommendations role\n\nHi Fernhill hiring team,\n\nI saw that you are hiring a Machine Learning Engineer to build the recommendation models behind gear suggestions in your app and website.\n\nAcme Software offers custom software development and dedicated engineers for web, mobile, cloud and machine learning projects. Our engineers can join your team to train ranking models in Python and TensorFlow, package them with Docker and deploy them on Kubernetes, so the work can start before a full-time hire is in place.\n\nTwo examples of related work:\n- Machine learning with Python and TensorFlow: https://example.com/ml-python-portfolio\n- DevOps with Jenkins and Docker: https://example.com/devops-portfolio\n\nWould you be open to a short call next week?\n\nBest regards,\nAlex Morgan\nBusiness Development Manager\nAcme Software",
+    "Android Developer": "Subject: Help with your Android app rebuild\n\nHi Fernhill hiring team,\n\nI noticed you are looking for an Android Developer to rebuild the app your customers use to plan trips, track orders and check store stock.\n\nAcme Software offers custom software development and dedicated engineers for web, mobile, cloud and machine learning projects. Our Android engineers work in Kotlin and can build your new features with Jetpack Compose, add offline support with Room and connect Firebase for sign-in, analytics and push notifications.\n\nRelated work from our portfolio:\n- Kotlin, Android and Firebase: https://example.com/kotlin-android-portfolio\n- Android with Java and Room: https://example.com/android-portfolio\n\nAre you free for a short call this week to talk about the rebuild?\n\nBest regards,\nAlex Morgan\nBusiness Development Manager\nAcme Software",
+    "Frontend Engineer, E-commerce": "Subject: Frontend support for your e-commerce team\n\nHi Fernhill hiring team,\n\nI saw your opening for a Frontend Engineer to own the product pages and checkout of the Fernhill website.\n\nAcme Software offers custom software development and dedicated engineers for web, mobile, cloud and machine learning projects. Our frontend engineers can build your pages and components in React and TypeScript, work with your GraphQL API and Node.js services, and keep page speed and accessibility in focus.\n\nRelated work from our portfolio:\n- React and Node.js: https://example.com/react-portfolio\n- Frontend with TypeScript: https://example.com/typescript-frontend-portfolio\n- Full-stack JavaScript with Express.js: https://example.com/full-stack-js-portfolio\n\nWould a short call next week be useful?\n\nBest regards,\nAlex Morgan\nBusiness Development Manager\nAcme Software"
+  }
+}

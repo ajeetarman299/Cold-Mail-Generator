@@ -1,9 +1,10 @@
-# Python
+# Python caches
 __pycache__/
 *.py[cod]
-*.pyc
 *.egg-info/
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Virtual environments
 .venv/
@@ -17,8 +18,9 @@ env/
 .env
 .env.*
 !.env.example
+.streamlit/secrets.toml
 
-# Local ChromaDB store created by the app and notebooks
+# ChromaDB stores built by the app and the notebooks
 vectorstore/
 chroma/
 
